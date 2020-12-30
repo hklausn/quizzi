@@ -1,0 +1,109 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: linear-gradient(45deg, rgba(72,191,227,0.2), rgba(128,255,219, 0.5) ), url(background.jpg);
+    background-position: bottom 25% right 10%;
+    background-size: cover;
+    font-family: 'Amatic SC', cursive, sans-serif;
+    
+}
+
+
+.start button {
+    animation: transitionIn 2.2s;
+    position:absolute;
+    top: 35%;
+    right: 50%;
+    font-size: 55px;
+    width: 500px;
+    height: 500px;
+    border-radius: 80%;
+}
+
+
+.wrapper {
+    visibility: hidden;
+    width: 50%;
+    max-width: 2500px;
+    margin: 15px 55%;
+    padding: 155px 15px 15px 50px;
+    text-align: center;
+    height: 80vh;
+    }
+
+.wrapper h1 {
+    margin: 15px 25px;
+    font-family: 'Amatic SC', cursive;
+    font-style: 700;
+    font-size: 6vh; 
+}
+
+.wrapper h2 {
+    margin: 25px 5px 25px;
+}
+
+.wrapper span {
+   
+    max-width: 500px;
+    font-size: 2em;
+    display: block;
+    background-color: rgba(152, 255, 255, 0.4);
+    cursor: pointer;
+    text-shadow: white 1px 1px;
+    box-shadow: lightblue 1px 1px;
+    padding-bottom: 10px;
+    margin: 4px auto;
+    border-radius: 5px;
+    
+
+}
+
+.wrapper span:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4);
+    
+}
+
+#ans {
+    background-color: rgba(15, 200, 65 , 0.2);
+}
+
+#ans1 {
+    background-color: rgba(200, 15, 15, 0.2);
+}
+
+
+
+button {
+    border: 0px solid #4EA8DE ;
+    box-shadow: 0 0 10px 0 #4EA8DE, 0 0 10px 4px #4EA8DE;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 25px 0px 0 0;
+    padding: 5px 25px;
+    max-width: 500px;
+}
+
+button:hover {
+    box-shadow: 0 0 15px 0 #4EA8DE, 0 0 15px 4px #4EA8DE; 
+    background-color: rgba(255, 255, 255, 0.3);  
+}
+
+
+/* CSS ANIMATION */
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-180deg);
+    } to {
+        font-optical-sizing: 1;
+        transform: rotateX(0);
+
+    }
+}
